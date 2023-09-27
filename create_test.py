@@ -12,8 +12,6 @@ def positive_assert(track):
 
 request = sender_stand_request.create_new_order(data.order_body)
 track_number = request.json()['track']
-print(track_number)
-
 
 def test_get_order_by_track():
     positive_assert(track_number)
