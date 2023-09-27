@@ -18,5 +18,5 @@ track_number = request.json()['track']
 print(track_number)
 
 
-def test_status_code():
+def test_get_order_by_track():
     positive_assert(track_number)
