@@ -2,7 +2,7 @@ import configuration
 import requests
 import data
 import sender_stand_request
-# Мария Иванова, 1-я когорта — Финальный проект. Инженер по тестированию плюс
+# Хохлов Кирилл, 8а когорта — Финальный проект. Инженер по тестированию плюс
 
 def positive_assert(track):
     request = sender_stand_request.create_new_order(data.order_body)
